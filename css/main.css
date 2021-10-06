@@ -1,0 +1,207 @@
+
+html{
+	height: 100%;
+	width: 100%;
+	min-width: 100%;
+}
+
+
+body{
+	background: hsl(226, 43%, 10%);
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container{
+	margin-left: 22%;
+	margin-top: 13%;
+	display: grid;
+  	grid-template-areas: 
+	    "post-1 post-2 post-3 post-4"
+	    "post-1 post-5 post-6 post-7";
+ 	grid-template-rows: repeat(4, 240px);
+  	grid-template-columns: repeat(4, 250px);
+  	grid-gap: 30px;
+  	height: 600px;
+}
+
+.wrapper{
+	border-style: hidden;
+  	border-radius: 20px;
+}
+
+#profilePage{
+	grid-area: post-1;
+}
+
+#grid2{
+	grid-area: post-2;
+	background: hsl(15, 100%, 70%);
+}
+#grid3{
+	grid-area: post-3;
+	background: hsl(195, 74%, 62%);
+}
+#grid4{
+	grid-area: post-4;
+	background: hsl(348, 100%, 68%);
+}
+#grid5{
+	grid-area: post-5;
+	background: hsl(145, 58%, 55%);
+}
+#grid6{
+	grid-area: post-6;
+	background: hsl(264, 64%, 52%);
+}
+#grid7{
+	grid-area: post-7;
+	background: hsl(43, 84%, 65%);
+}
+
+.container > div {
+  font-size: 14px;
+  background: hsl(235, 46%, 20%);
+}
+
+/*design blocks*/
+
+/*profil*/
+
+.porf_img{
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 80px;
+	width: 80px;
+	border: 3px solid;
+	border-radius: 130px;
+}
+
+.profil_up{
+	background: hsl(246, 80%, 60%);
+	height: 70%;
+}
+
+.profil_down{
+	height: 30%;
+}
+
+.wrapper_up{
+	border-style: hidden;
+  	border-radius: 20px;
+  	line-height: 1.4;
+}
+.wrapper_down{
+	border-style: hidden;
+  	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+}
+
+.prof_1{
+	color: white;
+	font-size: 35px;
+	margin-left: 30px;
+	margin-top: 35px;
+}
+.prof_2{
+	font-size: 16px;
+	color: hsl(236, 100%, 87%);
+}
+
+.prof_3{
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 35px;
+	line-height: 2.4;
+	color: hsl(236, 100%, 87%);
+	width: 70px;
+}
+
+li:hover{
+	color: white;
+}
+li{
+	list-style-type: none;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+/*blocks*/
+
+/*grid2*/
+
+.block_up{
+	height: 17%;
+	border-style: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  	background-repeat: no-repeat;
+  	margin: 0 0 0 120px; 
+}
+
+.block_down{
+	border-style: hidden;
+	border-radius: 15px;
+	height: 83%;
+}
+
+.color_down{
+	background: hsl(235, 46%, 20%);
+	transition-duration: 0.5s;
+}
+.color_down:hover{
+	background: hsl(235, 45%, 61%);
+}
+
+.color_2_up{
+	background-image: url("../images/icon-work.svg");
+	background-position: bottom -25px right 20px;
+}
+.color_3_up{
+	background-image: url("../images/icon-play.svg");
+	background-position: bottom -25px right 20px;
+}
+.color_4_up{
+	background-image: url("../images/icon-study.svg");
+	background-position: bottom -25px right 20px;
+}
+.color_5_up{
+	background-image: url("../images/icon-exercise.svg");
+	background-position: bottom -10px right 20px;
+}
+.color_6_up{
+	background-image: url("../images/icon-social.svg");
+	background-position: bottom -45px right 20px;
+}
+.color_7_up{
+	background-image: url("../images/icon-self-care.svg");
+	background-position: bottom -10px right 20px;
+}
+
+/*content*/
+
+.button{
+	margin-left: 170px;
+	margin-top: -26px;
+}
+.button:hover{
+	transition-duration: 0.5s;
+	filter: hue-rotate(1deg);
+}
+.grid1_box{
+	width: 80%;
+	padding: 25px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.grid1_box_2{
+	font-size: 60px;
+	font-weight: 300;
+	margin-left: 25px;
+	line-height: 1.4;
+}
+.grid1_box_2_1{
+	font-size: 14px;
+	font-weight: 100;
+	color: hsl(236, 100%, 87%);
+}
