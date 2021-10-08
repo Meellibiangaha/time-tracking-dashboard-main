@@ -23,7 +23,7 @@
 
 ##  Полезные ссылки ##  
 
-1. [Css]: https://html5book.ru/css-grid/  
-2. [Js]: https://developer.mozilla.org/ru/  
-3. [Вопросы по json'у]: https://ru.stackoverflow.com/  
-4. [Task]: https://www.frontendmentor.io/challenges  
+1. [Css](https://html5book.ru/css-grid/)  
+2. [Js](https://developer.mozilla.org/ru/)  
+3. [Вопросы по json'у](https://ru.stackoverflow.com/)  
+4. [Task](https://www.frontendmentor.io/challenges)  
